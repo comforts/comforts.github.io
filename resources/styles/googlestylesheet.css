@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    text-align: right;
+    margin-top: 15px;
+    margin-right: 0;
+}
+
+.menu-item {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+    position: relative;
+    top: -12px;
+    padding-right: 10px;
+}
+
+.menu-item:hover {
+    text-decoration: underline;
+}
+
+.material-icons.md-18 { font-size: 24px; }
+
+#dropdown-menu {
+    position: relative;
+    top: -3px;
+}
+
+#profile {
+    top: 1px;
+    padding-right: 3px;
+}
+
+#search-data {
+    position: relative;
+    text-align: center;
+    top: 105px;
+}
+
+#logo {
+    padding-bottom: 20px;
+}
+
+#input-data {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border: 1px solid #dfe1e5;
+    width: 550px;
+    height: 10px;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+
+input {
+    width: 450px;
+    height: 335%;
+    border: none;
+    outline: none;
+    font-size: 17px;
+}
+
+#input-data:hover {
+    box-shadow: 0 1px 6px 0 rgba(33, 36, 0, 0.28);
+}
+
+#Search {
+    position: absolute;
+    left: 18px;
+    top: 11px;
+}
+
+#mic {
+    position: absolute;
+    right: 18px;
+    top: 11px;
+}
+
+#btn-data {
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+button {
+    background-color: #f8f9fa;
+    background-image: linear-gradient(top, #f8f9fa, #f8f9fa);
+    border: 1px solid #f8f9fa;
+    margin: 11px 4px;
+    padding: 0 16px;
+    color: #3c4043;
+    height: 36px;
+    min-width: 54px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+button:focus {
+    border: 1px solid lightblue;
+    border-radius: 4px;
+}
+
+button:hover {
+    box-shadow: 1px 1px 1px 1px rgba(33, 36, 0, 0.28);
+}
+
+div > p {
+    font-size: 13px;
+}
+
+#app-dropdown {
+    visibility: hidden;
+    position: absolute;
+    right: 30px;
+    width: 300px;
+    height: 300px;
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px rgba(33, 36, 0, 0.28);
+    z-index: 9;
+}
+
+#dropdown:hover
+#app-dropdown {
+    display: block;
+    visibility: visible;
+}
+
+.item {
+    display: inline-block;
+    width: 86px;
+    height: 86px;
+    margin: 5px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+.item > img {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    right: 50%;
+    transform: translate(50%);
+    padding-right: 0;
+    padding-top: 5px;
+}
+.item > p {
+    padding-top: -8px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.item:hover {
+    background-color: rgba(137, 155, 235, 0.301);
+    cursor: pointer;
+}

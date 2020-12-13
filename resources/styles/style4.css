@@ -1,0 +1,68 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: #182153;
+    background: url(/resources/images/high-angle-shot-of-tall-green-trees-on-mountain-slopes-under-3163943.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    position: static;
+    top: 0;
+    height: 70px;
+    width: 90vw;
+    background-color: rgb(204, 176, 193);
+    left: 50%;
+    transform: translate(5%);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+    padding: 20px;
+
+}
+
+nav {
+    position: relative;
+    float: right;
+    right: 50px;
+    height: 30px;
+}
+
+h1 {
+    float: left;
+    margin: 0;
+    font-size: 29px;
+    padding: 20px 5px;
+}
+nav {
+    display: inline-block;
+    position: relative;
+    top: 8px;
+    right: 0;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    border-radius: 10px;
+    
+}
+
+/* nav > a:hover {
+    background-color: rgb(116, 166, 204);
+} */
+
+main {
+    height: 200vh;
+    width: 90vw;
+    margin-top: 5px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: rgb(245, 241, 243);
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
